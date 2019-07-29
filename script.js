@@ -19,9 +19,9 @@ $(".general .cubo").click(function() {
 
                   //confrontiamo i 2 numeri per aggiungere sfondo quadrato selezionato
                   if(numServer > 5){
-                     $(selezione).css("background-color", "red").text(numServer);
+                     $(selezione).addClass("maxCinque").text(numServer);
                   } else if (numServer <= 5){
-                     $(selezione).css("background-color", "green").text(numServer);
+                     $(selezione).addClass("minCinque").text(numServer);
                   }
             },
             error: function(richiesta,stato,errore){
