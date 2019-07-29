@@ -3,3 +3,40 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+main {
+  background-color: lightgray;
+  height: 100vh;
+  width: 100vw;
+  background-image: url("image/sfondo.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+}
+
+.general {
+  width: 75%;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.cubo {
+  width: 150px;
+  height: 150px;
+  border: 1px solid black;
+  text-align: center;
+  padding-top: 65px;
+  background-color: white;
+  font-size: 20pt;
+  font-weight: bold;
+}
+
+div.minCinque {
+  background: yellow;
+}
+
+div.maxCinque {
+  background: green;
+}
